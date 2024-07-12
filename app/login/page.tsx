@@ -36,7 +36,7 @@ const Login = () => {
   return (
     <div className="flex items-start justify-center h-full bg-[#101214] text-white  ">
       <div className="flex w-full h-full ">
-        <div className="w-1/2 flex flex-col justify-center items-center bg-inherit p-8 rounded-lg shadow-lg ">
+        <div className="w-full md:w-1/2 flex flex-col justify-center items-center bg-inherit p-8 rounded-lg shadow-lg ">
           <div className="flex justify-start w-full flex-row items-center space-x-5">
             <Image
               src={LOGO_ZMAT24}
@@ -165,7 +165,7 @@ const Login = () => {
             </a>
           </p>
         </div>
-        <div className="w-1/2  flex justify-center items-center p-8">
+        <div className="hidden  md:flex justify-center items-center p-8">
           <Image src={BACKGROUND_IMAGE} alt="Background" className="h-screen" />
         </div>
       </div>
